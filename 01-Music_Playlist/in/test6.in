@@ -1,0 +1,21 @@
+20
+ADD_LAST The Beatles - No Reply.mp3
+DEL_SONG NOMA - Brain power.mp3
+MOVE_PREV
+DEL_LAST
+ADD_AFTER Suie Paparude - Mergem Mai Departe.mp3
+ADD_AFTER Elvis Presley - All Shook Up.mp3
+ADD_AFTER 2Pac - Ambitionz az a ridah.mp3
+ADD_FIRST Rick Astley - Never Gonna Give You Up.mp3
+MOVE_NEXT
+SHOW_FIRST
+DEL_SONG Nicu Alifantis - Ploaie in luna lui Marte.mp3
+DEL_CURR
+ADD_LAST Iron Maiden - Alexander The Great.mp3
+SHOW_FIRST
+MOVE_PREV
+ADD_FIRST Michael Jackson - Smooth Criminal.mp3
+MOVE_PREV
+SHOW_FIRST
+ADD_LAST ABBA - Chiquitita.mp3
+SHOW_PLAYLIST

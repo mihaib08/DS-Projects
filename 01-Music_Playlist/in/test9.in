@@ -1,0 +1,51 @@
+50
+ADD_AFTER Nicu Alifantis - Ce bine ca esti!.mp3
+ADD_AFTER Iron Maiden - Powerslave.mp3
+SHOW_CURR
+ADD_FIRST Adele - Hello.mp3
+MOVE_NEXT
+DEL_CURR
+ADD_AFTER Queen - Another One Bites the Dust.mp3
+ADD_LAST Elvis Presley - Jailhouse Rock.mp3
+ADD_LAST ABBA - Dancing Queen.mp3
+ADD_LAST Michael Jackson - Thriller.mp3
+DEL_LAST
+DEL_CURR
+MOVE_PREV
+SHOW_CURR
+ADD_AFTER Deep Purple - Child in Time.mp3
+DEL_CURR
+ADD_LAST Survivor - Eye Of The Tiger.mp3
+ADD_LAST Pasarea Colibri - Vinovatii fara vina.mp3
+ADD_AFTER Satra BENZ - Satra se intoarce.mp3
+SHOW_CURR
+DEL_FIRST
+ADD_AFTER NOMA - Brain power.mp3
+MOVE_NEXT
+ADD_LAST 5GANG - SOS.mp3
+DEL_CURR
+SHOW_CURR
+DEL_FIRST
+ADD_LAST Celelalte Cuvinte - Daca vrei.mp3
+MOVE_PREV
+MOVE_PREV
+MOVE_PREV
+ADD_FIRST Liviu Guta - Buna dimineata.mp3
+ADD_LAST Red Hot Chili Peppers - Scar Tissue.mp3
+DEL_CURR
+SHOW_LAST
+MOVE_NEXT
+ADD_LAST Queen - Another One Bites the Dust.mp3
+MOVE_PREV
+SHOW_FIRST
+ADD_AFTER Celelalte Cuvinte - Iarba prin Par.mp3
+DEL_SONG The Beatles - Yesterday.mp3
+SHOW_FIRST
+SHOW_FIRST
+ADD_AFTER Imagine Dragons - Believer.mp3
+MOVE_NEXT
+MOVE_NEXT
+DEL_FIRST
+ADD_AFTER Slayer - Seasons in the Abyss.mp3
+SHOW_FIRST
+SHOW_PLAYLIST

@@ -1,0 +1,91 @@
+90
+ADD_FIRST CTC - Ochi Rosii.mp3
+ADD_LAST Ian x Azteca - BAG UN BLUNT.mp3
+DEL_SONG Exodus - Bonded By Blood.mp3
+SHOW_LAST
+ADD_LAST O-Zone - De Ce Plang Chitarele.mp3
+ADD_FIRST Adele - Hello.mp3
+SHOW_CURR
+DEL_FIRST
+ADD_AFTER Red Hot Chili Peppers - Californication.mp3
+ADD_AFTER Iron Maiden - The Trooper.mp3
+MOVE_NEXT
+DEL_FIRST
+ADD_AFTER Vlad Dobrescu - Globul de cristal.mp3
+DEL_CURR
+ADD_LAST The Animals - House of the Rising Sun.mp3
+ADD_FIRST Nicu Alifantis - Ce bine ca esti!.mp3
+MOVE_PREV
+ADD_FIRST Queen - Another One Bites the Dust.mp3
+SHOW_CURR
+MOVE_PREV
+MOVE_NEXT
+DEL_FIRST
+DEL_LAST
+SHOW_FIRST
+ADD_FIRST Exodus - Bonded By Blood.mp3
+ADD_AFTER Geany Morandi - Fac bani si in Himalaya.mp3
+MOVE_NEXT
+SHOW_LAST
+ADD_AFTER Led Zeppelin - Black Dog.mp3
+ADD_LAST Pink Floyd - Comfortably Numb.mp3
+DEL_FIRST
+MOVE_PREV
+DEL_SONG Subcarpati - '84-'85.mp3
+ADD_AFTER Judas Priest - Breaking The Law.mp3
+ADD_FIRST Michael Jackson - Smooth Criminal.mp3
+ADD_AFTER Eminem - Rap God.mp3
+ADD_LAST Michael Jackson - Thriller.mp3
+ADD_FIRST Ariana Grande - 7 rings.mp3
+ADD_FIRST Metallica - Nothing Else Matters.mp3
+ADD_FIRST Travka - Corabia nebunilor.mp3
+ADD_LAST Survivor - Eye Of The Tiger.mp3
+DEL_FIRST
+DEL_SONG Iron Maiden - Fear of The Dark.mp3
+MOVE_NEXT
+SHOW_FIRST
+DEL_CURR
+SHOW_FIRST
+DEL_CURR
+MOVE_PREV
+ADD_AFTER Justin Bieber - Baby.mp3
+ADD_AFTER Eminem - Rap God.mp3
+MOVE_NEXT
+SHOW_LAST
+ADD_FIRST Michael Jackson - Thriller.mp3
+ADD_LAST Elvis Presley - All Shook Up.mp3
+MOVE_PREV
+SHOW_FIRST
+MOVE_NEXT
+MOVE_NEXT
+SHOW_LAST
+ADD_AFTER Elvis Presley - Jailhouse Rock.mp3
+MOVE_PREV
+SHOW_FIRST
+DEL_FIRST
+ADD_AFTER Slayer - Seasons in the Abyss.mp3
+DEL_SONG Deep Purple - Smoke on the Water.mp3
+SHOW_LAST
+ADD_AFTER Celelalte Cuvinte - Armaghedon.mp3
+SHOW_FIRST
+ADD_FIRST Pink Floyd - Another Brick in The Wall Part 2.mp3
+DEL_FIRST
+ADD_FIRST Elvis Presley - Jailhouse Rock.mp3
+MOVE_NEXT
+DEL_FIRST
+SHOW_LAST
+SHOW_LAST
+SHOW_LAST
+ADD_LAST Suie Paparude - Nu Te Mai Saturi De Noi.mp3
+MOVE_NEXT
+ADD_AFTER Gorillaz - Feel Good Inc.mp3
+MOVE_PREV
+ADD_LAST Florin Salam si Mr Juve - Ma omoara, ma omoara.mp3
+ADD_LAST Oasis - Don't Look Back In Anger.mp3
+DEL_LAST
+SHOW_LAST
+ADD_AFTER Adele - Someone Like You.mp3
+DEL_LAST
+MOVE_PREV
+MOVE_NEXT
+SHOW_PLAYLIST

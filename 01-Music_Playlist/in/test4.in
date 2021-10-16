@@ -1,0 +1,11 @@
+10
+ADD_LAST Daler Mehndi - Tunak Tunak Tun.mp3
+MOVE_NEXT
+SHOW_FIRST
+DEL_SONG Gorillaz - Clint Eastwood.mp3
+DEL_CURR
+MOVE_NEXT
+ADD_AFTER Celelalte Cuvinte - Daca vrei.mp3
+ADD_LAST Gorillaz - On Melancholy Hill.mp3
+ADD_AFTER ABBA - Chiquitita.mp3
+SHOW_PLAYLIST

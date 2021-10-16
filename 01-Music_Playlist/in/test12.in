@@ -1,0 +1,71 @@
+70
+ADD_FIRST Darude - Sandstorm.mp3
+ADD_FIRST The Rolling Stones - No Use in Crying.mp3
+MOVE_NEXT
+DEL_LAST
+SHOW_LAST
+SHOW_CURR
+ADD_LAST Marius Babanu - Araboaica.mp3
+ADD_FIRST Phoenix - Mugur de fluier.mp3
+MOVE_NEXT
+MOVE_NEXT
+ADD_LAST Led Zeppelin - When the Levee Breaks.mp3
+MOVE_NEXT
+DEL_FIRST
+ADD_LAST Dr. Dre ft. Snoop Dogg - Still D.R.E..mp3
+DEL_CURR
+ADD_LAST ABBA - Dancing Queen.mp3
+ADD_FIRST Celelalte Cuvinte - Daca vrei.mp3
+ADD_AFTER The Rolling Stones - Paint It, Black.mp3
+ADD_AFTER Dr. Dre - The Next Episode.mp3
+SHOW_LAST
+MOVE_PREV
+SHOW_LAST
+MOVE_NEXT
+ADD_AFTER Liviu Guta - Buna dimineata.mp3
+DEL_SONG Queen - Another One Bites the Dust.mp3
+DEL_FIRST
+SHOW_CURR
+MOVE_NEXT
+SHOW_FIRST
+SHOW_FIRST
+SHOW_FIRST
+ADD_LAST ACDC - Highway To Hell.mp3
+DEL_CURR
+ADD_LAST ABBA - Mamma Mia.mp3
+ADD_FIRST 5GANG - SOS.mp3
+SHOW_FIRST
+ADD_AFTER Elvis Presley - All Shook Up.mp3
+ADD_FIRST Metallica - Nothing Else Matters.mp3
+ADD_AFTER Satra BENZ - Satra se intoarce.mp3
+MOVE_NEXT
+ADD_FIRST Satra BENZ - Satra se intoarce.mp3
+ADD_FIRST Daler Mehndi - Tunak Tunak Tun.mp3
+ADD_AFTER Vlad Dobrescu - Globul de cristal.mp3
+DEL_CURR
+SHOW_CURR
+SHOW_CURR
+DEL_SONG Florin Salam si Mr Juve - Ma omoara, ma omoara.mp3
+ADD_FIRST Michael Jackson - Smooth Criminal.mp3
+DEL_CURR
+MOVE_NEXT
+MOVE_NEXT
+ADD_LAST Michael Jackson - Billie Jean.mp3
+SHOW_CURR
+DEL_LAST
+DEL_SONG Red Hot Chili Peppers - Dani California.mp3
+MOVE_PREV
+MOVE_PREV
+DEL_FIRST
+ADD_LAST Nicu Alifantis - Ploaie in luna lui Marte.mp3
+MOVE_PREV
+SHOW_FIRST
+MOVE_PREV
+ADD_FIRST Nicu Alifantis - Ploaie in luna lui Marte.mp3
+ADD_AFTER CTC - Ochi Rosii.mp3
+ADD_LAST The Beatles - No Reply.mp3
+ADD_FIRST Pink Floyd - Wish You Were Here.mp3
+DEL_LAST
+ADD_FIRST Oasis - Stop Crying Your Heart Out.mp3
+DEL_FIRST
+SHOW_PLAYLIST

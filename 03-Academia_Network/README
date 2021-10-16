@@ -1,0 +1,149 @@
+/**
+ * Tema_3  [2019-2020]
+ * >> Academia Network <<
+ *
+ * Mihai Barbu
+ * Tudor Niculescu
+ * 325CA
+ */
+
+Pentru fiecare articol am definit structura article, care contine toate datele unui articol date ca parametrii in functia add_paper.
+  
+Pentru autori am definit o structura - author - ce contine id-ul, numele si institutia unui autor.
+
+Astfel am creat o lista de articole List, care contine noduri - paper - cu infromatii de tip article.
+
+Toate task-urile temei au fost rezolvate utilizand hastable-uri cu direct chaining.
+
+Am definit structura PublData astfel:
+	-> hmax = numarul maxim de bucket-uri (in cazul nostru 50000);
+	-> buckets = hashtable pe id-ul articolelor;
+	-> field_buckets = hashtable pe field;
+	-> ref_buckets = hashtable pe articolele citate (ce include numarul de citari al unui articol)
+	-> v_buckets = hashtable pe venue;
+	-> a_buckets = hashtable pe autori;
+	-> years = vector de frecventa pentru anii de aparitie ai articolelor;
+
+Pentru bucket-urile de mai sus am definit structurile:
+
+ --> Field_Node -> *field - retine numele field-ului;
+    	  	-> num_authors - retine numarul de autori care au scris un articol din field-ul respectiv;
+		-> *institutions - retine numele institutiilor pentru autori;
+		-> *ids - vector de id-uri care retine id-urile autorilor care au scris un articol cu field-ul *field;
+
+                -> paper_id - id-ul articolului care face parte din field-ul respectiv;
+                -> paper_title - numele articolului care face parte din field-ul respectiv;
+                -> year - anul de aparitie al articolului din field-ul respectiv;
+	
+	-- pentru fiecare nou articol adaugat se va crea un nod nou pentru fiecare field al articolului.
+  
+   -> Fields - lista cu noduri de tip Field_Node
+
+
+ --> Ref_Node -> id - id-ul unui articol care a fost citat;
+	      -> *ids - lista de id-uri ale articolelor care au citat articolul respectiv;
+	      -> ct - numarul de citari ale articolului cu id-ul id;
+	      -> vis - variabila care retine daca nodul cu id-ul id a fost vizitat;
+  
+   -> Refs - lista cu noduri de tip Ref_Node
+
+
+ --> v_node -> *venue - retine numele unui jurnal;
+            -> id - retine id-ul unui articol cu care a fost publicat in jurnalul respectiv;
+         
+        -- pentru fiecare nou articol adaugat se va crea un nod nou pentru venue-ul articolului.
+
+   -> Venues - lista cu noduri de tip v_node
+
+
+ --> a_node -> id - retine id-ul unui autor;
+	    -> *ids - retine id-urile autorilor care au scris articole cu autorul avand id-ul id (un id de autor se poate repeta aici);
+            -> ct - numarul de id-uri din *ids;
+	    -> vis - variabila care retine daca nodul cu id-ul id a fost vizitat;
+	    -> *paper_ids - lista care retine id-urile articolelor la care a scris autorul cu id-ul id;
+	    -> *name - string care retine numele autorului cu id-ul id;
+   
+   -> Authors - lista cu noduri de tip a_node
+
+
+  -- Pentru listele de id-uri am folosit am definit structurile id_node si id_List.
+  -- Pentru coada am folosit o lista dublu inlantuita.
+	   
+
+ --> cited_paper_node -> retine id-ul, anul si numele unui articol citata -- util pentru task_5
+                                                                                         ++ task_10 -- pentru lista de venue-uri
+
+
+Task 0:	
+	-> functia preia datele articolelor si le introduce in toate hashtable-urile, folosite astfel:
+		-> pentru autori - se verifica daca id-ul autorului se afla deja in hash, caz in care se adauga in lista *paper_ids id-ul articolului; 
+                                  daca nu se afla in hashtable, se creaza un nod cu id-ul autorului;
+				  se creeaza legaturile dintre un autor si ceilalti autori ai unui articol folosind o lista de id-uri *ids;
+
+		-> pentru  fields - pentru fiecare domeniu al unui nou articol se creeaza un nod care retine numele field-ului, id-ul paper-ului, titlul paper-ului;
+		-> pentru venues - pentru fiecare articol se creeaza un nod de tip v_node corespunzator jurnalului sau;
+                -> pentru references - se cauta daca exista deja un nod de tip r_node in bucket-ul de Refs (in caz contrar se creeaza unul) si se adauga id-ul articolului
+                                       la lista *ids;			  		 
+
+ 
+
+-------> Am folosit o variabila de tip static int - k - pentru parcugerile efectuate astfel incat sa evitam reinitializarea variabilelor de vizitat - vis -
+
+
+  --> Task_1 - get_oldest_influence():
+	  
+          - am folosit hashtable-ul general de articole - *buckets - pentru a realiza o parcugere de tip BFS a articolelor;
+		-- pentru numarul maxim de citari am folosit hashtable-ul *ref_buckets;
+
+  --> Task_2 - get_venue_impact_factor():
+
+          - am folosit hashtable-ul *v_buckets pentru a afla toate articolele publicate in venue-ul dat;
+		-- pentru fiecare articol publicat in jurnalul respectiv am hashtable-ul de *ref_buckets pentru a determina numarul de citari;
+
+
+  --> Task_3 - get_number_of_influenced_papers():
+
+          - folosind bucket-ul *ref_buckets realizam o parcurgere de tip BFS, calculand si nivelul - niv - al parcurgerii astfel incat niv <= distance.
+
+
+  --> Task_4 - get_erdos_distance():
+
+          - folosind bucket-ul *a_buckets realizam o parcurgere de tip BFS pe id-urile autorilor, in timp ce in variabila niv retinem nivelul curent al
+            parcurgerii, astfel incat niv + 1 va fi distanta Erdos intre cei doi autori cautati.
+
+
+  --> Task_5 - get_most_cited_papers_by_field():
+
+          - folosim hashtable-ul *field_buckets pentru a determina articolele din field-ul dat, dupa care pentru fiecare articol aflam numarul de citari;
+		-- folosind lista de tip Cited_List *list adaugam - sortate corespunzator - articolele.
+ 
+  --> Task_6 - get_number_of_papers_between_dates():
+
+          - folosind vectorul de frecventa *years contorizam numarul de articole publicate in intervalul [early_date, late_date];
+
+  --> Task_7 - get_number_of_authors_with_field():
+
+          - folosind hashtable-ul *field_buckets cautam autorii care au scris articole in field-ul respectiv si care apartin de institutia institution;
+		-- folosim un vector *ids in care retinem id-urile autorilor care au fost luati in considerare - il realocam pe masura ce apare un nou id de autor
+                   valid pentru cerinta data; 
+
+  --> Task_8 - get_histogram_of_citations():
+
+          - folosind hashtable-ul *a_buckets cautam articolele publicate de autorul cu id-ul id_author;
+		-- folosim hashtable-ul *ref_buckets pentru a afla numarul de citari ale fiecarui articol, in timp ce anul se determina cu ajutorul hashtable-ului *buckets;
+			--- folosim initial un vector alocat static de 2021 de pozitii pentru a afla histograma, dupa care, afland anul minim de aparitie al unui articol al
+                            autorului dat - min_year - vom genera histograma ceruta avand *num_years = 2020 - min_year + 1;
+
+
+  --> Task_9 - get_reading_order():
+
+          - am sortat articolele dupa nivel, respectiv dupa anul de aparitie
+
+  --> Task_10 - find_best_coordinator():
+
+          - asemantor cu erdos_distance() am folosit hashtable-ul *a_buckets pentru a realiza o parcurgere de tip BFS a autorilor pornind de la autorul cu id-ul id_author,
+            astfel ca nivelul niv va fi erdos(a, a_i) pentru un autor a_i;
+		-- am folosit hashtable-ul *ref_buckets pentru a afla numarul de citari ale unui articol + get_venue_impact_factor() pentru a determina factorul de impact al
+                   unui articol;
+			--- am refolosit structura Cited_List pentru a retine numele venue-rilor care au fost deja folosite - am adaugat in cited_paper_node variabila fact care
+                            retine factorul de impact al venue-ului.

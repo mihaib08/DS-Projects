@@ -1,0 +1,31 @@
+30
+ADD_AFTER Imagine Dragons - Radioactive.mp3
+ADD_FIRST ABBA - Knowing Me, Knowing You.mp3
+SHOW_CURR
+MOVE_PREV
+ADD_LAST NOMA - Brain power.mp3
+ADD_LAST Bucovina - Mestecanis.mp3
+SHOW_FIRST
+MOVE_PREV
+MOVE_NEXT
+ADD_AFTER Queen - Don't Stop Me Now.mp3
+SHOW_FIRST
+DEL_LAST
+ADD_AFTER The Beatles - Hey Jude.mp3
+DEL_CURR
+DEL_CURR
+ADD_AFTER Red Hot Chili Peppers - Dani California.mp3
+MOVE_NEXT
+ADD_AFTER O-Zone - De Ce Plang Chitarele.mp3
+MOVE_PREV
+DEL_FIRST
+MOVE_PREV
+ADD_FIRST Oasis - Don't Look Back In Anger.mp3
+DEL_SONG Adele - Someone Like You.mp3
+SHOW_CURR
+ADD_AFTER Slayer - Raining Blood.mp3
+DEL_LAST
+ADD_AFTER Led Zeppelin - When the Levee Breaks.mp3
+SHOW_LAST
+ADD_AFTER Led Zeppelin - Since I've Been Loving You.mp3
+SHOW_PLAYLIST

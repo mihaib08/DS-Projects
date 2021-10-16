@@ -1,0 +1,401 @@
+400
+ADD_FIRST Imagine Dragons - Believer.mp3
+ADD_LAST Queen - Another One Bites the Dust.mp3
+DEL_CURR
+ADD_FIRST Bucovina - Spune tu, Vant.mp3
+SHOW_LAST
+ADD_LAST Red Hot Chili Peppers - Dani California.mp3
+MOVE_PREV
+ADD_AFTER CTC - Ochi Rosii.mp3
+ADD_LAST Pink Floyd - Wish You Were Here.mp3
+DEL_SONG Pasarea Colibri - Vinovatii fara vina.mp3
+ADD_FIRST Cirith Ungol - Edge Of A Knife.mp3
+SHOW_LAST
+ADD_FIRST Deep Purple - Smoke on the Water.mp3
+ADD_FIRST Adele - Someone Like You.mp3
+ADD_AFTER Led Zeppelin - Black Dog.mp3
+ADD_AFTER Nicu Alifantis - Ce bine ca esti!.mp3
+DEL_CURR
+MOVE_NEXT
+SHOW_FIRST
+DEL_CURR
+MOVE_NEXT
+ADD_AFTER Slayer - Angel of Death.mp3
+ADD_AFTER Slayer - Raining Blood.mp3
+DEL_CURR
+ADD_FIRST Metallica - Nothing Else Matters.mp3
+MOVE_NEXT
+DEL_CURR
+ADD_LAST ACDC - Highway To Hell.mp3
+SHOW_FIRST
+SHOW_LAST
+ADD_AFTER Slayer - Seasons in the Abyss.mp3
+ADD_FIRST ACDC - TNT.mp3
+DEL_LAST
+ADD_LAST ACDC - Thunderstruck.mp3
+MOVE_PREV
+ADD_LAST Iron Maiden - Powerslave.mp3
+ADD_AFTER Rick Astley - Never Gonna Give You Up.mp3
+DEL_SONG Vlad Dobrescu - Globul de cristal.mp3
+ADD_AFTER CTC - Interzis Nefumatorilor.mp3
+DEL_FIRST
+DEL_FIRST
+ADD_FIRST ABBA - Dancing Queen.mp3
+DEL_LAST
+ADD_AFTER Nicu Alifantis - Ploaie in luna lui Marte.mp3
+ADD_LAST Bucovina - Spune tu, Vant.mp3
+ADD_LAST Judas Priest - Breaking The Law.mp3
+DEL_FIRST
+ADD_LAST Iron Maiden - Fear of The Dark.mp3
+SHOW_CURR
+ADD_AFTER The Beatles - Hey Jude.mp3
+SHOW_CURR
+ADD_FIRST Celelalte Cuvinte - Iarba prin Par.mp3
+ADD_FIRST ACDC - TNT.mp3
+DEL_LAST
+DEL_SONG Pink Floyd - Wish You Were Here.mp3
+MOVE_PREV
+SHOW_FIRST
+ADD_FIRST Gorillaz - On Melancholy Hill.mp3
+ADD_FIRST Adele - Hello.mp3
+SHOW_LAST
+DEL_FIRST
+SHOW_CURR
+ADD_FIRST Judas Priest - Blood Red Skies.mp3
+ADD_FIRST Red Hot Chili Peppers - Scar Tissue.mp3
+ADD_AFTER Gorillaz - Feel Good Inc.mp3
+MOVE_PREV
+MOVE_PREV
+MOVE_PREV
+SHOW_FIRST
+ADD_FIRST Led Zeppelin - When the Levee Breaks.mp3
+SHOW_CURR
+ADD_LAST Florin Salam si Mr Juve - Ma omoara, ma omoara.mp3
+ADD_LAST Imagine Dragons - Believer.mp3
+MOVE_PREV
+DEL_SONG Subcarpati - '84-'85.mp3
+ADD_FIRST Cirith Ungol - Edge Of A Knife.mp3
+MOVE_PREV
+MOVE_NEXT
+MOVE_PREV
+SHOW_FIRST
+ADD_LAST CTC - Ochi Rosii.mp3
+MOVE_NEXT
+SHOW_CURR
+ADD_AFTER Bucovina - Mestecanis.mp3
+SHOW_FIRST
+MOVE_PREV
+DEL_CURR
+MOVE_PREV
+SHOW_LAST
+ADD_LAST Adele - Someone Like You.mp3
+SHOW_FIRST
+ADD_LAST ACDC - TNT.mp3
+ADD_FIRST Exodus - Bonded By Blood.mp3
+DEL_CURR
+SHOW_CURR
+SHOW_CURR
+SHOW_LAST
+ADD_FIRST Pink Floyd - Wish You Were Here.mp3
+ADD_FIRST ACDC - Thunderstruck.mp3
+ADD_AFTER Florin Salam si Mr Juve - Ma omoara, ma omoara.mp3
+DEL_FIRST
+DEL_FIRST
+ADD_FIRST Queen - Don't Stop Me Now.mp3
+SHOW_FIRST
+DEL_FIRST
+ADD_LAST 5GANG - SOS.mp3
+DEL_CURR
+MOVE_NEXT
+SHOW_LAST
+MOVE_PREV
+SHOW_LAST
+ADD_FIRST ABBA - Chiquitita.mp3
+MOVE_PREV
+ADD_LAST Rammstein - Du Hast.mp3
+ADD_AFTER Pink Floyd - Money.mp3
+ADD_LAST Celelalte Cuvinte - Iarba prin Par.mp3
+ADD_LAST ACDC - Highway To Hell.mp3
+MOVE_NEXT
+SHOW_CURR
+SHOW_FIRST
+SHOW_FIRST
+ADD_LAST Dr. Dre ft. Snoop Dogg - Still D.R.E..mp3
+ADD_AFTER Deep Purple - Child in Time.mp3
+MOVE_NEXT
+MOVE_PREV
+ADD_LAST Celelalte Cuvinte - Daca vrei.mp3
+DEL_CURR
+DEL_FIRST
+MOVE_NEXT
+ADD_FIRST Nicu Alifantis - Ce bine ca esti!.mp3
+ADD_LAST Survivor - Eye Of The Tiger.mp3
+DEL_LAST
+SHOW_CURR
+ADD_AFTER Michael Jackson - Smooth Criminal.mp3
+SHOW_LAST
+SHOW_CURR
+SHOW_LAST
+ADD_AFTER Pink Floyd - Wish You Were Here.mp3
+MOVE_PREV
+MOVE_PREV
+ADD_FIRST Pasarea Colibri - Ploaia care va veni.mp3
+DEL_SONG Michael Jackson - Thriller.mp3
+ADD_AFTER Dr. Dre - The Next Episode.mp3
+ADD_FIRST Suie Paparude - Nu Te Mai Saturi De Noi.mp3
+MOVE_PREV
+DEL_LAST
+SHOW_CURR
+ADD_LAST Judas Priest - Jugulator.mp3
+MOVE_PREV
+DEL_CURR
+ADD_FIRST Suie Paparude - Nu Te Mai Saturi De Noi.mp3
+SHOW_LAST
+DEL_SONG Iron Maiden - Powerslave.mp3
+ADD_AFTER Iron Maiden - Aces High.mp3
+ADD_AFTER ABBA - Mamma Mia.mp3
+ADD_AFTER Michael Jackson - Billie Jean.mp3
+SHOW_FIRST
+SHOW_LAST
+DEL_CURR
+MOVE_PREV
+MOVE_NEXT
+MOVE_PREV
+SHOW_CURR
+DEL_CURR
+MOVE_PREV
+ADD_FIRST Exodus - Bonded By Blood.mp3
+MOVE_NEXT
+DEL_FIRST
+DEL_SONG Elvis Presley - All Shook Up.mp3
+ADD_FIRST abi - Papuci Gucci.mp3
+ADD_FIRST Exodus - Bonded By Blood.mp3
+SHOW_LAST
+DEL_CURR
+DEL_SONG CTC - Ochi Rosii.mp3
+ADD_LAST Geany Morandi - Fac bani si in Himalaya.mp3
+DEL_LAST
+SHOW_FIRST
+ADD_AFTER Nicu Alifantis - Ploaie in luna lui Marte.mp3
+MOVE_NEXT
+SHOW_FIRST
+ADD_FIRST abi - Papuci Gucci.mp3
+ADD_LAST Elvis Presley - Blue Suede Shoes.mp3
+MOVE_NEXT
+ADD_AFTER Judas Priest - Jugulator.mp3
+MOVE_PREV
+SHOW_CURR
+ADD_FIRST The Rolling Stones - No Use in Crying.mp3
+SHOW_LAST
+SHOW_CURR
+ADD_AFTER ABBA - Chiquitita.mp3
+MOVE_PREV
+SHOW_FIRST
+ADD_LAST Pink Floyd - Another Brick in The Wall Part 2.mp3
+DEL_FIRST
+ADD_AFTER Iron Maiden - Aces High.mp3
+MOVE_PREV
+ADD_AFTER Michael Jackson - Smooth Criminal.mp3
+ADD_AFTER Iron Maiden - Aces High.mp3
+SHOW_CURR
+DEL_SONG Michael Jackson - Thriller.mp3
+MOVE_NEXT
+MOVE_PREV
+ADD_FIRST Celelalte Cuvinte - Iarba prin Par.mp3
+MOVE_NEXT
+ADD_AFTER Iron Maiden - Powerslave.mp3
+SHOW_LAST
+ADD_AFTER Elvis Presley - All Shook Up.mp3
+MOVE_NEXT
+DEL_SONG Pink Floyd - Money.mp3
+SHOW_CURR
+DEL_LAST
+DEL_CURR
+ADD_AFTER Slayer - Angel of Death.mp3
+MOVE_PREV
+MOVE_PREV
+ADD_FIRST Suie Paparude - Mergem Mai Departe.mp3
+ADD_AFTER Ariana Grande - 7 rings.mp3
+MOVE_PREV
+MOVE_PREV
+ADD_FIRST Celelalte Cuvinte - Armaghedon.mp3
+ADD_FIRST Michael Jackson - Smooth Criminal.mp3
+ADD_FIRST Imagine Dragons - Believer.mp3
+ADD_AFTER Satra BENZ - Satra se intoarce.mp3
+DEL_CURR
+ADD_FIRST Iron Maiden - Fear of The Dark.mp3
+ADD_AFTER Led Zeppelin - When the Levee Breaks.mp3
+DEL_SONG Iron Maiden - Aces High.mp3
+ADD_AFTER Michael Jackson - Thriller.mp3
+MOVE_NEXT
+ADD_LAST Judas Priest - Jugulator.mp3
+ADD_FIRST Liviu Guta - Buna dimineata.mp3
+DEL_LAST
+MOVE_PREV
+ADD_AFTER Judas Priest - Blood Red Skies.mp3
+SHOW_FIRST
+SHOW_CURR
+DEL_CURR
+MOVE_NEXT
+ADD_AFTER Phoenix - Mugur de fluier.mp3
+MOVE_NEXT
+DEL_SONG ACDC - Highway To Hell.mp3
+ADD_AFTER O-Zone - De Ce Plang Chitarele.mp3
+ADD_LAST Pink Floyd - Comfortably Numb.mp3
+SHOW_LAST
+MOVE_PREV
+DEL_SONG Metallica - Battery.mp3
+DEL_SONG Oasis - Stop Crying Your Heart Out.mp3
+ADD_AFTER Slayer - Raining Blood.mp3
+DEL_SONG Dr. Dre ft. Snoop Dogg - Still D.R.E..mp3
+DEL_SONG Florin Salam - A venit nebunu de Salam.mp3
+MOVE_NEXT
+ADD_FIRST The Rolling Stones - (I Can't Get No) Satisfaction.mp3
+ADD_FIRST Liviu Guta - Buna dimineata.mp3
+DEL_CURR
+ADD_AFTER Red Hot Chili Peppers - Californication.mp3
+MOVE_PREV
+ADD_LAST The Beatles - Yesterday.mp3
+MOVE_NEXT
+ADD_LAST Darude - Sandstorm.mp3
+ADD_LAST The Rolling Stones - No Use in Crying.mp3
+ADD_AFTER Eminem - Rap God.mp3
+SHOW_CURR
+ADD_LAST abi - Papuci Gucci.mp3
+DEL_SONG O-Zone - Dragostea din tei.mp3
+SHOW_FIRST
+SHOW_FIRST
+ADD_FIRST Nicu Alifantis - Ce bine ca esti!.mp3
+MOVE_NEXT
+DEL_SONG Iron Maiden - The Trooper.mp3
+DEL_SONG Dr. Dre - The Next Episode.mp3
+DEL_SONG Oasis - Stop Crying Your Heart Out.mp3
+DEL_CURR
+ADD_LAST Slayer - Angel of Death.mp3
+DEL_LAST
+DEL_FIRST
+MOVE_PREV
+SHOW_FIRST
+MOVE_NEXT
+ADD_LAST Gorillaz - Clint Eastwood.mp3
+SHOW_FIRST
+ADD_FIRST The Rolling Stones - No Use in Crying.mp3
+ADD_FIRST Led Zeppelin - Immigrant Song.mp3
+MOVE_PREV
+ADD_LAST Metallica - Nothing Else Matters.mp3
+ADD_LAST The Beatles - Yesterday.mp3
+MOVE_PREV
+DEL_LAST
+ADD_FIRST The Rolling Stones - Paint It, Black.mp3
+SHOW_CURR
+MOVE_NEXT
+MOVE_PREV
+MOVE_PREV
+ADD_FIRST Celelalte Cuvinte - Armaghedon.mp3
+MOVE_PREV
+SHOW_CURR
+DEL_FIRST
+MOVE_NEXT
+DEL_LAST
+ADD_FIRST Oasis - Don't Look Back In Anger.mp3
+SHOW_CURR
+ADD_LAST Led Zeppelin - Since I've Been Loving You.mp3
+DEL_LAST
+MOVE_NEXT
+MOVE_NEXT
+MOVE_NEXT
+SHOW_LAST
+MOVE_NEXT
+DEL_CURR
+ADD_AFTER The Animals - House of the Rising Sun.mp3
+MOVE_NEXT
+ADD_LAST Rick Astley - Never Gonna Give You Up.mp3
+MOVE_NEXT
+ADD_AFTER Nicu Alifantis - Ce bine ca esti!.mp3
+SHOW_CURR
+ADD_LAST Iron Maiden - The Trooper.mp3
+DEL_FIRST
+ADD_AFTER Iron Maiden - Aces High.mp3
+ADD_AFTER Red Hot Chili Peppers - Scar Tissue.mp3
+SHOW_CURR
+ADD_FIRST Michael Jackson - Billie Jean.mp3
+SHOW_FIRST
+MOVE_NEXT
+SHOW_CURR
+DEL_LAST
+DEL_CURR
+ADD_FIRST ACDC - TNT.mp3
+DEL_LAST
+SHOW_CURR
+ADD_LAST Judas Priest - Electric Eye.mp3
+DEL_FIRST
+SHOW_CURR
+MOVE_PREV
+DEL_FIRST
+ADD_AFTER Slayer - Angel of Death.mp3
+ADD_AFTER Oasis - Stop Crying Your Heart Out.mp3
+MOVE_NEXT
+DEL_FIRST
+ADD_LAST Iron Maiden - Alexander The Great.mp3
+DEL_FIRST
+DEL_LAST
+ADD_AFTER Elvis Presley - All Shook Up.mp3
+ADD_AFTER The Rolling Stones - (I Can't Get No) Satisfaction.mp3
+SHOW_FIRST
+SHOW_FIRST
+ADD_AFTER The Rolling Stones - No Use in Crying.mp3
+ADD_LAST Florin Salam si Mr Juve - Ma omoara, ma omoara.mp3
+SHOW_FIRST
+ADD_AFTER Elvis Presley - Jailhouse Rock.mp3
+ADD_FIRST Iron Maiden - Fear of The Dark.mp3
+ADD_AFTER Dr. Dre - The Next Episode.mp3
+ADD_FIRST Iron Maiden - Powerslave.mp3
+DEL_FIRST
+MOVE_PREV
+MOVE_NEXT
+ADD_FIRST Pasarea Colibri - Vinovatii fara vina.mp3
+DEL_CURR
+ADD_FIRST Bucovina - Spune tu, Vant.mp3
+ADD_FIRST ACDC - Thunderstruck.mp3
+SHOW_LAST
+MOVE_NEXT
+ADD_FIRST Judas Priest - Blood Red Skies.mp3
+ADD_FIRST Adele - Hello.mp3
+SHOW_CURR
+MOVE_PREV
+DEL_FIRST
+ADD_FIRST Elvis Presley - All Shook Up.mp3
+ADD_LAST Slayer - Angel of Death.mp3
+ADD_FIRST Pink Floyd - Money.mp3
+MOVE_NEXT
+DEL_LAST
+ADD_LAST Gorillaz - Clint Eastwood.mp3
+ADD_FIRST Gorillaz - Clint Eastwood.mp3
+ADD_FIRST Exodus - Bonded By Blood.mp3
+ADD_LAST Florin Salam si Mr Juve - Ma omoara, ma omoara.mp3
+ADD_FIRST Celelalte Cuvinte - Armaghedon.mp3
+ADD_LAST ABBA - Knowing Me, Knowing You.mp3
+ADD_LAST Marius Babanu - Araboaica.mp3
+SHOW_CURR
+DEL_CURR
+MOVE_NEXT
+SHOW_FIRST
+SHOW_LAST
+SHOW_LAST
+SHOW_CURR
+MOVE_PREV
+ADD_FIRST O-Zone - Dragostea din tei.mp3
+SHOW_CURR
+ADD_FIRST Subcarpati si Argatu - Rege pe deal.mp3
+ADD_FIRST Survivor - Eye Of The Tiger.mp3
+SHOW_LAST
+SHOW_CURR
+SHOW_CURR
+SHOW_FIRST
+DEL_CURR
+DEL_FIRST
+ADD_LAST Judas Priest - Breaking The Law.mp3
+DEL_SONG O-Zone - De Ce Plang Chitarele.mp3
+SHOW_CURR
+MOVE_NEXT
+SHOW_PLAYLIST

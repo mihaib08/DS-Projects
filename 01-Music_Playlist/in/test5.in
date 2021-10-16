@@ -1,0 +1,11 @@
+10
+ADD_FIRST The Rolling Stones - Paint It, Black.mp3
+DEL_SONG Pink Floyd - Wish You Were Here.mp3
+ADD_AFTER Ian x Azteca - BAG UN BLUNT.mp3
+MOVE_PREV
+ADD_LAST Rammstein - Du Hast.mp3
+DEL_LAST
+SHOW_LAST
+ADD_LAST Imagine Dragons - Radioactive.mp3
+MOVE_PREV
+SHOW_PLAYLIST

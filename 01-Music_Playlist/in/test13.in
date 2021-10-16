@@ -1,0 +1,81 @@
+80
+ADD_LAST Pink Floyd - Wish You Were Here.mp3
+SHOW_CURR
+ADD_AFTER The Rolling Stones - Paint It, Black.mp3
+SHOW_CURR
+ADD_AFTER The Animals - House of the Rising Sun.mp3
+ADD_AFTER Red Hot Chili Peppers - Under The Bridge.mp3
+ADD_LAST Led Zeppelin - Black Dog.mp3
+ADD_LAST Florin Salam - A venit nebunu de Salam.mp3
+ADD_LAST Suie Paparude - Mergem Mai Departe.mp3
+DEL_CURR
+ADD_LAST Red Hot Chili Peppers - Californication.mp3
+DEL_CURR
+ADD_AFTER Pasarea Colibri - Vinovatii fara vina.mp3
+ADD_FIRST Suie Paparude - Nu Te Mai Saturi De Noi.mp3
+SHOW_CURR
+ADD_FIRST Suie Paparude - Mergem Mai Departe.mp3
+MOVE_PREV
+ADD_FIRST Pink Floyd - Comfortably Numb.mp3
+DEL_LAST
+ADD_AFTER Marius Babanu - Araboaica.mp3
+ADD_AFTER Celelalte Cuvinte - Iarba prin Par.mp3
+MOVE_NEXT
+DEL_LAST
+SHOW_LAST
+SHOW_CURR
+ADD_LAST Led Zeppelin - Black Dog.mp3
+DEL_CURR
+MOVE_PREV
+MOVE_NEXT
+ADD_FIRST NOMA - Brain power.mp3
+SHOW_FIRST
+MOVE_PREV
+DEL_CURR
+SHOW_CURR
+DEL_SONG ACDC - TNT.mp3
+ADD_FIRST Bucovina - Spune tu, Vant.mp3
+ADD_AFTER Gorillaz - On Melancholy Hill.mp3
+SHOW_CURR
+SHOW_LAST
+ADD_AFTER Deep Purple - Child in Time.mp3
+DEL_FIRST
+SHOW_CURR
+ADD_FIRST Celelalte Cuvinte - Armaghedon.mp3
+ADD_LAST ABBA - Chiquitita.mp3
+MOVE_NEXT
+MOVE_NEXT
+DEL_FIRST
+MOVE_NEXT
+ADD_AFTER O-Zone - De Ce Plang Chitarele.mp3
+DEL_CURR
+MOVE_NEXT
+MOVE_NEXT
+MOVE_PREV
+DEL_LAST
+ADD_AFTER Michael Jackson - Thriller.mp3
+ADD_LAST Cirith Ungol - Edge Of A Knife.mp3
+MOVE_PREV
+MOVE_NEXT
+SHOW_LAST
+MOVE_PREV
+ADD_LAST Deep Purple - Child in Time.mp3
+ADD_FIRST Iron Maiden - Aces High.mp3
+ADD_AFTER Florin Salam - A venit nebunu de Salam.mp3
+ADD_FIRST The Beatles - Yesterday.mp3
+SHOW_CURR
+DEL_CURR
+SHOW_CURR
+SHOW_CURR
+ADD_LAST Red Hot Chili Peppers - Dani California.mp3
+DEL_FIRST
+DEL_SONG Subcarpati - '84-'85.mp3
+DEL_SONG Queen - Another One Bites the Dust.mp3
+ADD_AFTER ACDC - TNT.mp3
+SHOW_FIRST
+ADD_LAST Adele - Someone Like You.mp3
+ADD_AFTER The Beatles - No Reply.mp3
+MOVE_PREV
+MOVE_NEXT
+DEL_SONG Iron Maiden - Fear of The Dark.mp3
+SHOW_PLAYLIST

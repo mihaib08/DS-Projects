@@ -1,0 +1,11 @@
+10
+ADD_LAST CTC - Interzis Nefumatorilor.mp3
+MOVE_NEXT
+SHOW_CURR
+ADD_AFTER ABBA - Dancing Queen.mp3
+DEL_LAST
+ADD_FIRST The Rolling Stones - Paint It, Black.mp3
+DEL_SONG Red Hot Chili Peppers - Under The Bridge.mp3
+ADD_FIRST Judas Priest - Breaking The Law.mp3
+MOVE_PREV
+SHOW_PLAYLIST

@@ -1,0 +1,30 @@
+Tema1 - Music Playlist
+
+In structura LinkedList am adaugat nodul *curr, care retine cursorul playlistului. In continuare, se citeste mai intai prima parte a fiecarei comenzi, dupa care:
+- daca avem o comanda de ADD, atunci trebuie citit si numele melodiei, iar:
+    > daca avem ADD_AFTER se verifica daca melodia de adaugat nu este aceeasi cu cea de pe cursor;
+    > verificam prin functia check_song() daca melodia de adaugat se afla deja in lista;
+    > adaugam melodia in lista prin functia add_after();
+
+    > in cadrul functiei add_interpreter() se verifica mai intai daca melodia de adaugat este deja in lista prin check_song(), iar daca avem 
+      ADD_FIRST sau ADD_LAST se apeleaza functia add_first sau add_last dupa caz.
+
+- daca avem o comanda de DEL (delete): 
+    > in cazul in care comanda este DEL_SONG mai trebuie citit parametrul <nume_melodie>; folosind variabila sz se face o copie a lungimii listei list->size, 
+      astfel ca se verifica dupa apelarea functiei check_song() daca a fost eliminata melodia (daca list->size a scazut);
+    > daca este una din celelalte trei comenzi posibile, se verifica prin intermediul functiei del_interpreter() care este comanda data, dupa care se realizeaza
+      functia corespunzatoare (del_first(), del_last() sau del_curr()). **Foarte importanta este pozitia cursorului in toate cele trei functii pentru actualizarea
+      acestuia in functie de pozitia sa.
+
+- daca avem o comanda de MOVE, atunci se apeleaza functia move_interpreter():
+    > se verifica intai daca exista cursorul (nu este NULL). In caz negativ se afiseaza eroarea ceruta, iar daca exista se realizeaza mutarea cursorului
+      cu o pozitie dupa (NEXT) sau in urma (PREV). In plus, se verifica daca se afla la sfarsit, respectiv la inceput cursorul (caz in care se ignora comanda).
+
+- daca avem o comanda de SHOW:
+    > daca este SHOW_PLAYLIST, se apeleaza functia show_playlist() care afiseaza titlurile fiecarei melodii din lista;
+    > daca este alta comanda, se apeleaza functia show_interpreter() in care, prin intermediul nodului *aux, se pointeaza catre melodia ale carei informatii trebuie afisate;
+    >> pentru afisarea informatiilor unei melodii se foloseste variabila de tip uniune info (fiind o structura care are campurile title, artist, album, year); fisierul corespunzator
+       unei melodii se pozitioneaza pe ultimele 94 de caractere de la sfarsit (de unde incep datele necesare afisarii).
+
+-- functia check_song() verifica daca o melodie se afla in lista, iar in caz afirmativ se realizeaza operatia de stergere a acesteia din lista pe baza functiei removeSong(),
+   dupa care se elibereaza memoria alocata nodului melodiei respective.

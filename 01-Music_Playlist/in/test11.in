@@ -1,0 +1,61 @@
+60
+DEL_SONG Vlad Dobrescu - Globul de cristal.mp3
+ADD_FIRST O-Zone - De Ce Plang Chitarele.mp3
+MOVE_NEXT
+MOVE_NEXT
+ADD_AFTER Judas Priest - Breaking The Law.mp3
+ADD_LAST Gorillaz - Feel Good Inc.mp3
+SHOW_CURR
+SHOW_CURR
+ADD_LAST O-Zone - De Ce Plang Chitarele.mp3
+DEL_LAST
+DEL_FIRST
+SHOW_FIRST
+ADD_FIRST Geany Morandi - Fac bani si in Himalaya.mp3
+ADD_LAST Dr. Dre - The Next Episode.mp3
+SHOW_FIRST
+MOVE_NEXT
+MOVE_PREV
+DEL_FIRST
+ADD_AFTER The Beatles - Hey Jude.mp3
+ADD_LAST Eminem - Rap God.mp3
+DEL_LAST
+DEL_LAST
+ADD_AFTER abi - Papuci Gucci.mp3
+MOVE_PREV
+ADD_LAST 2Pac - Ambitionz az a ridah.mp3
+MOVE_NEXT
+MOVE_NEXT
+ADD_AFTER Nicu Alifantis - Ploaie in luna lui Marte.mp3
+SHOW_CURR
+DEL_LAST
+ADD_FIRST Pink Floyd - Comfortably Numb.mp3
+ADD_FIRST Imagine Dragons - Radioactive.mp3
+SHOW_FIRST
+DEL_SONG Gorillaz - Feel Good Inc.mp3
+DEL_LAST
+ADD_AFTER Pasarea Colibri - Vinovatii fara vina.mp3
+MOVE_NEXT
+ADD_AFTER The Beatles - No Reply.mp3
+SHOW_CURR
+ADD_FIRST Iron Maiden - Fear of The Dark.mp3
+SHOW_LAST
+ADD_AFTER Ariana Grande - 7 rings.mp3
+SHOW_FIRST
+ADD_LAST Darude - Sandstorm.mp3
+ADD_LAST Bucovina - Spune tu, Vant.mp3
+ADD_LAST Red Hot Chili Peppers - Snow.mp3
+ADD_LAST Subcarpati si Argatu - Rege pe deal.mp3
+DEL_LAST
+DEL_SONG ABBA - Dancing Queen.mp3
+SHOW_CURR
+SHOW_LAST
+MOVE_PREV
+MOVE_PREV
+DEL_SONG ABBA - Knowing Me, Knowing You.mp3
+ADD_LAST Daler Mehndi - Tunak Tunak Tun.mp3
+ADD_LAST Costel Biju - Nebunia din Mamaia.mp3
+MOVE_PREV
+MOVE_PREV
+ADD_FIRST The Beatles - No Reply.mp3
+SHOW_PLAYLIST

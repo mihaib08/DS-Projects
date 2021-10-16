@@ -1,0 +1,41 @@
+40
+ADD_FIRST Led Zeppelin - When the Levee Breaks.mp3
+ADD_AFTER Exodus - Bonded By Blood.mp3
+ADD_FIRST The Rolling Stones - No Use in Crying.mp3
+SHOW_FIRST
+ADD_AFTER Red Hot Chili Peppers - Dani California.mp3
+ADD_FIRST Queen - Another One Bites the Dust.mp3
+ADD_FIRST Slayer - Angel of Death.mp3
+SHOW_FIRST
+MOVE_NEXT
+ADD_LAST Red Hot Chili Peppers - Californication.mp3
+ADD_LAST Liviu Guta - Buna dimineata.mp3
+SHOW_CURR
+MOVE_PREV
+DEL_SONG Oasis - Stop Crying Your Heart Out.mp3
+DEL_LAST
+ADD_AFTER CTC - Interzis Nefumatorilor.mp3
+SHOW_LAST
+DEL_CURR
+ADD_LAST Red Hot Chili Peppers - Snow.mp3
+SHOW_FIRST
+MOVE_NEXT
+MOVE_PREV
+DEL_LAST
+DEL_CURR
+DEL_LAST
+MOVE_NEXT
+ADD_LAST Gorillaz - On Melancholy Hill.mp3
+DEL_LAST
+ADD_FIRST Ariana Grande - 7 rings.mp3
+DEL_SONG Ariana Grande - 7 rings.mp3
+ADD_LAST Elvis Presley - Blue Suede Shoes.mp3
+ADD_FIRST Metallica - Battery.mp3
+MOVE_NEXT
+MOVE_PREV
+SHOW_LAST
+ADD_AFTER Led Zeppelin - Immigrant Song.mp3
+MOVE_PREV
+SHOW_LAST
+ADD_LAST Judas Priest - Breaking The Law.mp3
+SHOW_PLAYLIST
