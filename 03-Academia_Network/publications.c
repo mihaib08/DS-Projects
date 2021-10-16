@@ -55,7 +55,7 @@ struct cited_paper_node {
     /* Count cited */
     int ct;
 
-    /* Task_10 *util* */
+    /* impact factor */
     double fact;
 
     int64_t parent_id;
@@ -641,8 +641,7 @@ void add_paper(PublData* data, const char* title, const char* venue,
     data->num_articles++;
 }
 
-/* Queue op */
-
+/* Queue ops */
 int64_t front(Queue *q) {
     q_node *curr;
     curr = q->list->head;
