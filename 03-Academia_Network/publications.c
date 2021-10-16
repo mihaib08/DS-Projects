@@ -1,4 +1,8 @@
-/* Copyright [2020] <Mihai-Eugen Barbu + Tudor-Alexandru Niculescu> */
+/** 
+ * Copyright [2020]
+ *   > Mihai-Eugen Barbu
+ *   > Tudor-Alexandru Niculescu
+ */
 
 #include <stdio.h>
 #include <stdint.h>
@@ -7,17 +11,14 @@
 #include <math.h>
 
 #include "publications.h"
+#include "network_comps.h"
 
-#define HMAX 50000
-
-typedef struct author author;
 struct author {
     char *name;
     int64_t id;
     char *institution;
 };
 
-typedef struct article article;
 struct article {
     int64_t id;
     char *title;
@@ -36,21 +37,16 @@ struct article {
     int vis;
 };
 
-typedef struct Node paper;
 struct Node {
     article *article;
     paper *next;
 };
 
-/* Hash_list --> chaining */
-typedef struct List List;
 struct List {
     paper *head;
     int size;
 };
 
-/* Task 5 */
-typedef struct cited_paper_node cited_paper_node;
 struct cited_paper_node {
     int64_t id;
     int year;
@@ -67,13 +63,11 @@ struct cited_paper_node {
     cited_paper_node *next;
 };
 
-typedef struct Cited_List Cited_List;
 struct Cited_List {
     cited_paper_node *head;
     cited_paper_node *tail;
 };
 
-typedef struct Field_Node Field_Node;
 struct Field_Node {
     char *field;
     int num_authors;
@@ -87,23 +81,19 @@ struct Field_Node {
     Field_Node *next;
 };
 
-typedef struct Fields Fields;
 struct Fields {
     Field_Node *head;
 };
 
-typedef struct id_node id_node;
 struct id_node {
     int64_t id;
     id_node *next;
 };
 
-typedef struct id_List id_List;
 struct id_List {
     id_node *head;
 };
 
-typedef struct Ref_Node Ref_Node;
 struct Ref_Node {
     int64_t id;
     id_List *ids;
@@ -114,13 +104,10 @@ struct Ref_Node {
     Ref_Node *next;
 };
 
-typedef struct Refs Refs;
 struct Refs {
     Ref_Node *head;
 };
 
-/* Queue */
-typedef struct q_node q_node;
 struct q_node{
     int64_t id;
     struct q_node *next;
@@ -131,26 +118,20 @@ struct LinkedList {
     q_node *tail;
 };
 
-typedef struct Queue Queue;
 struct Queue {
     struct LinkedList *list;
 };
 
-/* Venue_Hash */
-typedef struct v_node v_node;
 struct v_node {
     char *venue;
     int64_t id;
     v_node *next;
 };
 
-typedef struct Venues Venues;
 struct Venues {
     v_node *head;
 };
 
-/* Author_Node */
-typedef struct a_node a_node;
 struct a_node {
     int64_t id;
     id_List *ids;
@@ -164,11 +145,9 @@ struct a_node {
     a_node *next;
 };
 
-typedef struct Authors Authors;
 struct Authors {
     a_node *head;
 };
-
 
 struct publications_data {
     int hmax;
@@ -202,20 +181,6 @@ void init_venues(Venues *list) {
 
 void init_authors(Authors *list) {
     list->head = NULL;
-}
-
-unsigned int hash_function_string(void *a) {
-    /*
-     * Credits: http://www.cse.yorku.ca/~oz/hash.html
-     */
-    unsigned char *puchar_a = (unsigned char*) a;
-    unsigned int hash = 5381;
-    int c;
-
-    while ((c = *puchar_a++))
-        hash = ((hash << 5u) + hash) + c; /* hash * 33 + c */
-
-    return hash;
 }
 
 PublData* init_publ_data(void) {
