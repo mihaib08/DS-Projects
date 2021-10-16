@@ -1,0 +1,18 @@
+Tema2 - Count-distinct
+Mihai-Eugen Barbu - 315CA [2020]
+
+hll.c
+    -> Pentru fiecare hash am considerat separarea: 16 biti pentru indexul unui bucket;
+                                                  : 16 biti pentru restul numarului;
+
+    -> Consideram un hashtable cu functiile:
+       - hash_ind() - calculeaza indexul bucket-ului fiecarui hash;
+       - zeros() - calculeaza numarul bitilor de 0 initiali din restul hash-ului --> adauga la indexul bucket-ului bitii din restul
+                   numarului pana cand numarul format va fi impar - cand apare primul bit de 1;
+
+    -> hash_function_int() calculeaza hash-ul fiecarui numar citit; // Credits_Lab
+    -> In fiecare bucket se retine numarul maxim de biti de 0 pentru un anumit index - ind;
+    -> Se calculeaza suma puterilor de 2 prin simularea aducerii la acelasi numitor a fractiilor 2^(-M[j])
+       --> se afla max_zeros = numarul maxim de biti de 0 dintr-un bucket, iar 2^max_zeros - numitorul comun;
+    -> in hll_aprox() se afla factorul de atenuare si se realizeaza aproximarea ceruta
+       --> se va tine cont doar de numarul de bucket-uri folosite - ct;
